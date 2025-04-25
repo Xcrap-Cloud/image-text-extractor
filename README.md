@@ -18,7 +18,7 @@ npm i @xcrap/image-text-extractor
 import { extractImageText } from "@xcrap/image-text-extractor"
 import { HtmlParsingModel } from "@xcrap/parser"
 
-const parsingModel = new ParsingModel({
+const parsingModel = new HtmlParsingModel({
 	imageTexts: {
 		query: "img",
 		multiple: true,
@@ -30,7 +30,7 @@ const parsingModel = new ParsingModel({
 If you want to transform the `src` of the images to resolve relative paths or something like that, pass the `transformSrc` option in the options like this:
 
 ```ts
-const parsingModel = new ParsingModel({ 
+const parsingModel = new HtmlParsingModel({ 
     imageTexts: {
         query: "img",
         multiple: true,
