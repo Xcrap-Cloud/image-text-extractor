@@ -1,6 +1,6 @@
 {
   "name": "@xcrap/image-text-extractor",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Xcrap Image Text Extractor is a package of the Xcrap framework that abstracts the extraction of texts from images using the node-tesseract-ocr library.",
   "main": "./dist/index.js",
   "module": "./dist/index.js",
