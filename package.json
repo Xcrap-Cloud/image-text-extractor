@@ -28,7 +28,7 @@
     "jest": "^30.2.0",
     "ts-jest": "^29.3.1",
     "ts-node": "^10.9.2",
-    "typescript": "^5.8.3"
+    "typescript": "^6.0.2"
   },
   "dependencies": {
     "node-tesseract-ocr": "^2.2.1"
